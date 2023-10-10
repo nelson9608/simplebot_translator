@@ -131,8 +131,7 @@ def deltabot_init(bot: DeltaBot) -> None:
             "language",
             "Language to translate received text, default value is"
             f" {lang!r}, example values: en, es, de, ...",
-        )
-        bot.filters.register(translate_filter)
+       ) 
 
 
 @simplebot.hookimpl
